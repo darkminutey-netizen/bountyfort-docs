@@ -1,0 +1,40 @@
+---
+title: Welcome to BountyPort
+description: Decentralized bounty platform for open source.
+template: splash
+hero:
+  tagline: Empowering developers with a decentralized bounty platform.
+  image:
+    file: ../../../public/favicon.svg
+  actions:
+    - text: Get Started
+      link: /introduction/
+      icon: right-arrow
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/bountyport/bountyport
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## What is BountyPort?
+
+BountyPort is an MVP-stage decentralized bounty platform designed to connect open-source maintainers with contributors through a trustless, transparent mechanism. 
+
+Built on Ethereum (currently testing on local Foundry), it allows maintainers to post bounties, contributors to submit work, and rewards to be distributed automatically upon approval.
+
+<CardGrid stagger>
+	<Card title="Smart Contracts" icon="document">
+		The core of BountyPort, handling bounty lifecycle and funds.
+	</Card>
+	<Card title="Event Indexing" icon="list-format">
+		A Prisma-based service for fast and efficient bounty tracking.
+	</Card>
+	<Card title="Web App" icon="laptop">
+		A clean Next.js interface for contributors and maintainers.
+	</Card>
+	<Card title="Open Source" icon="setting">
+		Built by developers, for developers. Check out our roadmap!
+	</Card>
+</CardGrid>
