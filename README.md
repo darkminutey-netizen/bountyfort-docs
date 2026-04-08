@@ -1,6 +1,6 @@
-# BountyPort Docs
+# BountyFort Docs
 
-This is the documentation site for the BountyPort platform, built with [Starlight](https://starlight.astro.build/).
+This is the documentation site for the BountyFort platform, built with [Starlight](https://starlight.astro.build/).
 
 ## Getting Started
 
